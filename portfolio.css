@@ -36,6 +36,10 @@
     color: white;
    }
 
+#photo {
+    border-radius: 10px;
+}
+
 .about_me {
     display: block;
     width: 50%;

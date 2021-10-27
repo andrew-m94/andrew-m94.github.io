@@ -39,3 +39,12 @@ h1 {
     overflow: auto;
   white-space: nowrap;
 }
+
+.project_scroll_menu a {
+    display: inline-block;
+    padding: 14px;
+  }
+
+  .project_scroll_menu a:hover {
+    background-color: grey;
+  }

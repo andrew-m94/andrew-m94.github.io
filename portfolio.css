@@ -40,6 +40,7 @@
     display: block;
     width: 50%;
     overflow-wrap: break-word;
+    font-size: 16pt;
 
 }
 
@@ -94,9 +95,5 @@ img {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-    }
-
-    .about_me{
-        font-size: 16pt;
     }
 }

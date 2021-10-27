@@ -1,0 +1,41 @@
+.float_left {
+    float: left;
+    position: relative;
+    line-height: 20px;
+    width: 300px;
+    font-family: "Esteban";
+    font-size: 41px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav {
+    text-align: center;
+    background-color: #6a518f;
+    padding: 10px;
+    font-family: "Esteban";
+    color: white
+}
+
+.body {
+    background-color:black;
+    width: 100%;
+    height: 100%;
+    font-family: "Montserrat";
+    color: white;
+   }
+
+h1 {
+    font-family: "Montserrat";
+    color: white;
+}
+
+.nav_link {
+    font-family: "Montserrat";
+    color: white;
+}
+
+.project_scroll_menu {
+    overflow: auto;
+  white-space: nowrap;
+}

@@ -23,6 +23,11 @@
     color: white
 }
 
+.nav_link {
+    font-family: "Montserrat";
+    color: white;
+}
+
 .body {
     background-color:black;
     width: 100%;
@@ -31,12 +36,14 @@
     color: white;
    }
 
-h1 {
-    font-family: "Montserrat";
-    color: white;
+   .about_me {
+    display: block;
+    width: 50%;
+    overflow-wrap: break-word;
+
 }
 
-.nav_link {
+h1 {
     font-family: "Montserrat";
     color: white;
 }
@@ -62,13 +69,17 @@ h1 {
     color: white
   }
 
+  p{
+      font-size: 16pt;
+  }
+
   img {
     max-width: 100%;
     height: auto;
   }
 
   @media screen and (max-width: 800px) {
-    .body, h1 {
+    .body, h1, .about_me{
       width: 100%;
     }
     
@@ -83,5 +94,9 @@ h1 {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .about_me{
+        font-size: 16pt;
     }
 }

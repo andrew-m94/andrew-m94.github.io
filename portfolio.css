@@ -56,27 +56,27 @@ h1 {
 .project_scroll_menu a {
     display: inline-block;
     padding: 14px;
-  }
+}
 
-  .project_scroll_menu a:hover {
+.project_scroll_menu a:hover {
     background-color: grey;
-  }
+}
 
-  .footer{
+.footer{
     background-color: #6a518f;
     padding: 10px;
     font-family: "Esteban";
     color: white
-  }
+}
 
-  p{
-      font-size: 16pt;
-  }
+p{
+    font-size: 16pt;
+}
 
-  img {
+img {
     max-width: 100%;
     height: auto;
-  }
+}
 
   @media screen and (max-width: 800px) {
     .body, h1, .about_me{
